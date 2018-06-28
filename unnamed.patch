@@ -1,0 +1,56 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1530084664174)
++++ .idea/vcs.xml	(date 1530084664174)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/main/java/Hello_World.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/Hello_World.java	(revision 1d6fe6843714b0cf2f8029883fe42adca275931b)
++++ src/main/java/Hello_World.java	(date 1530098286740)
+@@ -11,7 +11,7 @@
+     }
+     public static int plus ( int a , int b)
+     {
+-        a=5; b = 10;
++
+         int  res = a + b;
+         return res;
+     }
+Index: src/test/java/Hello_WorldTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/Hello_WorldTest.java	(date 1530098228436)
++++ src/test/java/Hello_WorldTest.java	(date 1530098228436)
+@@ -0,0 +1,16 @@
++import org.junit.Test;
++
++import static org.junit.Assert.*;
++
++public class Hello_WorldTest {
++
++    @Test
++    public void main() {
++    }
++
++    @Test
++    public void plus()
++    {
++        assertEquals(12, new Hello_World().plus(6,6));
++    }
++}
+\ No newline at end of file
