@@ -2,7 +2,7 @@ public class Hello_World
 {
     public static void main (String [] args)
     {
-        System.out.println("hello world");
+       Hello_World.plus(6,6);
 
     }
     public  static  void printMsg ( String s)
@@ -11,7 +11,7 @@ public class Hello_World
     }
     public static int plus ( int a , int b)
     {
-        a=5; b = 10;
+
         int  res = a + b;
         return res;
     }
